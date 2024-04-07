@@ -1,0 +1,22 @@
+{
+  "name": "play-scraper",
+  "version": "1.0.0",
+  "description": "Google play store app's scraper",
+  "main": "main.js",
+  "type": "module", 
+  "scripts": {
+    "start": "nodemon main.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "esm": "^3.2.25",
+    "express": "^4.19.2",
+    "google-play-scraper": "^10.0.0",
+    "nodemon": "^3.1.0"
+  }
+}
